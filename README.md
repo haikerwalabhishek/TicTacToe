@@ -10,13 +10,13 @@ This project serves as a practical exercise for learning full-stack web developm
 ## Link:
 
 
-[https://haikerwalabhishek.github.io/initial-portfolio](https://haikerwalabhishek.github.io/initial-portfolio/)
+[Click Here](https://haikerwalabhishek.github.io/TicTacToe/)
 
 ## Preview:
 
 
 
-<center><img src="https://raw.githubusercontent.com/haikerwalabhishek/initial-portfolio/main/preview2.png" height=200px width=400px></center>
-<center><img src="https://raw.githubusercontent.com/haikerwalabhishek/initial-portfolio/main/preview1.png" height=200px width=400px></center>
-<center><img src="https://raw.githubusercontent.com/haikerwalabhishek/initial-portfolio/main/preview3.png" height=200px width=400px></center>
+<center><img src="https://raw.githubusercontent.com/haikerwalabhishek/TicTacToe/main/preview1.png" height=200px width=400px></center>
+<center><img src="https://raw.githubusercontent.com/haikerwalabhishek/TicTacToe/main/preview2.png" height=200px width=400px></center>
+
 
