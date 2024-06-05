@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FDFFE2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #83B4FF;
+    text-align: center;
+}
+
+h1{
+ padding-top: 15px;
+ height: 10vh;
+ background-color: #5A72A0;
+ width: 100%;
+}
+
+.winner{
+    width: 300px;
+}
+
+@keyframes move {
+    0%{
+        color: #880c0c;
+        transform: translateY(0px)
+    }
+    50%{
+        color: #9e5e09;
+        transform: translateY(20px);
+    }
+    100%{
+        color: #880c0c;
+        transform: translateY(-20px);
+    }
+    
+}
+
+h2{
+    font-size: 50px;
+    text-wrap: line-break;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.container{
+    height: 80vh;
+    display: flex;
+    flex-direction: ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60vmin;
+    width: 60vmin;
+    padding: 20px;
+    background-color: #5A72A0;
+    box-shadow: 0px 0px 10px black;
+}
+
+.box{
+    height: 18vmin;
+    width: 17vmin;
+    color: #5A72A0;
+    font-size:80px;
+    font-weight: 900;
+    cursor: pointer;
+    background-color: #efefef;
+    border-color: #c2bdbd;
+}
+
+.reset{
+    color: #ffffff;
+    background-color: #5A72A0;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    font-weight: 800;
+    
+}
+
+.reset:hover{
+    background-color: #cfd4dd;
+    color:black;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgb(15, 15, 15);
+}
+
+.red{
+    color: rgb(214, 62, 62);
+}
+
+.blue{
+    color:rgb(116, 116, 206);
+}
+
+@media (max-width:768px){
+    h2{
+        font-size: 25px;
+    }
+
+    .game{
+        max-height: 250px;
+        max-width: 250px;
+        min-height: 250px;
+        min-width: 250px;
+        padding: 15px;
+    }
+
+    .box{
+        max-height: 70px;
+        max-width: 70px;
+        min-height: 70px;
+        min-width: 70px;
+        font-size: 50px;
+    }
+}
+
+@media (max-width:375px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+
+
